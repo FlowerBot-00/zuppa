@@ -1,0 +1,5 @@
+Da aggiungere una variabile ambientale per chiamare il programma senza dover fare >python vattela_a_pesca -t -a -trololol
+
+Connessione peer to peer tra nodi, why not; prendere spunto da blockchain.
+
+Salvare i dati del nodo in un file config !
