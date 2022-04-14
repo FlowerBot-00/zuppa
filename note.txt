@@ -3,3 +3,12 @@ Da aggiungere una variabile ambientale per chiamare il programma senza dover far
 Connessione peer to peer tra nodi, why not; prendere spunto da blockchain.
 
 Salvare i dati del nodo in un file config !
+
+Messaggio update manuale, magari voglio sincronizzare i file in 5 min invece che aspettare il clock settimanale
+
+alla creazione del nodo o all'aggiunta di una cartella nella lista dei "to update" si potrebbero sovrascrivere i dati per sbaglio quindi con files più nuovi ma di una vecchia versione, quindi si dovrebbe fare un controllo sulla data o magari fare un "lock", oppure chiedere l'operazione da fare. 
+
+Si potrebbe tenere una cartella dei file "vecchi" cosi se si aggiorna qualcosa di sbagliato o si presenta qualche bug strano, abbiamo un backup. Magari da tenere per 7 giorni o qualcosa di simile.
+
+La comunicazione di "hello" e "ho questi dati" possono essere visti come stati, e quindi un automa. Mi raccomando pensa bene allo schema altrimenti mandano messaggi tra loro come pazzi e si intrecciano.
+
