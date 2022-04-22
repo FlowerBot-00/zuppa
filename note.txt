@@ -12,3 +12,6 @@ Si potrebbe tenere una cartella dei file "vecchi" cosi se si aggiorna qualcosa d
 
 La comunicazione di "hello" e "ho questi dati" possono essere visti come stati, e quindi un automa. Mi raccomando pensa bene allo schema altrimenti mandano messaggi tra loro come pazzi e si intrecciano.
 
+The OSPF exchanges 5 types of packets: Hello packet, Database description
+packet, Link-state request packet, Link-state update packet, Link-state
+acknowledgment packet.
