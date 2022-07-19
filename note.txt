@@ -15,3 +15,9 @@ La comunicazione di "hello" e "ho questi dati" possono essere visti come stati, 
 The OSPF exchanges 5 types of packets: Hello packet, Database description
 packet, Link-state request packet, Link-state update packet, Link-state
 acknowledgment packet.
+
+Aggiungere un check per modifiche avvenute al codice, penso un hash dei files, poi si penserà a dove mettere la base per il confronto..
+
+Le interfacce in cui mandare i pacchetti si potrebbero chiedere, ALL oppure selezione singola per ogni interf (tipo on/off)
+
+Degli "alert" agli altri nodi se si hanno dei problemi ?! Non so quali potrebbero presentarsi ma suona fico
